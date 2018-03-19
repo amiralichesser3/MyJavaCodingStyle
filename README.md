@@ -1,4 +1,5 @@
 # MyJavaCodingStyleCoding:
+**Coding:**
 
 Favor readability - if there's an ambiguous and unambiguous route, always favor unambiguous
 
@@ -30,7 +31,7 @@ Do not serialize direct handles to system resources
 
 Strive for logical completeness
 
-Naming:
+**Naming:**
 
 Treat acronyms as words (XmlHttpRequest > XMLHTTPRequest)
 
@@ -44,7 +45,7 @@ The names of variables declared class constants and of ANSI constants should be 
 
 One-character variable names should be avoided except for temporary “throwaway” variables.
 
-Ordering:
+**Ordering:**
 
 2.2.10 Class member ordering
 	1.	Constants
@@ -64,7 +65,7 @@ public User loadUser(Context context, int userId);
 // Callbacks always go last
 public void loadUserAsync(Context context, int userId, UserCallback callback);
 
-Misc:
+**Misc:**
 
 Use TODO comments for code that is temporary, a short-term solution, or good-enough but not perfect.
 
