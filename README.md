@@ -31,6 +31,7 @@ Do not serialize direct handles to system resources
 
 Strive for logical completeness
 
+
 **Naming:**
 
 Treat acronyms as words (XmlHttpRequest > XMLHTTPRequest)
@@ -44,6 +45,7 @@ Methods should be verbs, camel case.
 The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores (“_”)
 
 One-character variable names should be avoided except for temporary “throwaway” variables.
+
 
 **Ordering:**
 
@@ -64,6 +66,7 @@ public User loadUser(Context context, int userId);
 
 // Callbacks always go last
 public void loadUserAsync(Context context, int userId, UserCallback callback);
+
 
 **Misc:**
 
