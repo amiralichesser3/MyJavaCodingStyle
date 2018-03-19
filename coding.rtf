@@ -1,0 +1,137 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf100
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red217\green11\blue5;\red255\green255\blue255;\red25\green25\blue25;
+\red0\green0\blue0;\red27\green31\blue34;\red10\green77\blue204;\red18\green31\blue60;\red4\green57\blue192;
+\red255\green255\blue255;\red4\green57\blue192;\red18\green31\blue60;\red27\green31\blue34;\red25\green25\blue25;
+\red252\green39\blue18;\red87\green96\blue106;\red203\green35\blue57;}
+{\*\expandedcolortbl;;\cssrgb\c88946\c14202\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c12941\c12941\c12941;
+\cssrgb\c0\c0\c0;\cssrgb\c14118\c16078\c18039;\cssrgb\c1176\c40000\c83922;\cssrgb\c9020\c16863\c30196;\cssrgb\c0\c32157\c80000;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c32157\c80000;\cssrgb\c9020\c16863\c30196;\cssrgb\c14118\c16078\c18039;\cssrgb\c12941\c12941\c12941;
+\cssrgb\c100000\c25271\c7591;\cssrgb\c41569\c45098\c49020;\cssrgb\c84314\c22745\c28627;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww19780\viewh12080\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 Coding\cf5 :\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \outl0\strokewidth0 Favor readability - if there's an ambiguous and unambiguous route, always favor unambiguous\
+\outl0\strokewidth0 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec7 Favor immutability\
+\strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec8 Do not perform bitwise and arithmetic operations on the same data\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec9 Do not use a null in a case where an object is required\
+\
+Do not use deprecated or obsolete classes or methods\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec8 Classes that define an equals() method must also define a hashCode() method\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec9 \
+Do not modify the underlying collection when an iteration is in progress\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \outl0\strokewidth0 Initialize (almost) all local variables\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \outl0\strokewidth0 \strokec9 Convert integers to floating point for floating-point operations\cf5 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+Variables should be declared in the innermost block that encloses all uses of the variable.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \outl0\strokewidth0 \strokec4 Don't Ignore Exceptions, Don't Catch Generic Exception\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec8 Do not attempt to help the garbage collector by setting local reference variables to null\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb10 \outl0\strokewidth0 Do not store unencrypted sensitive information on the client side\
+\
+Do not serialize direct handles to system resources\
+\
+Strive for logical completeness\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \outl0\strokewidth0 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 Naming\cf5 :\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec13 Treat acronyms as words (\outl0\strokewidth0 XmlHttpRequest > XMLHTTPRequest)\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 Class names should be nouns, in mixed case with the first letter of each internal word capitalized. Try to keep your class names simple and descriptive.\
+\
+Interface names should be capitalized like class names.\
+\
+Methods should be verbs, camel case.\
+\
+The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores (\'93_\'94)\
+\
+One-character variable names should be avoided except for temporary \'93throwaway\'94 variables.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf2 Ordering\cf5 :\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \outl0\strokewidth0 \strokec13 2.2.10 Class member ordering\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Constants\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Fields\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Constructors\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Override methods and callbacks (public or private)\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Public methods\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Private methods\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 Inner classes or interfaces\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf5 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf15 Parameter ordering in methods:\
+\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec16 // Context always goes first\strokec13 \
+\strokec17 public\strokec13  User loadUser(Context context, \strokec17 int\strokec13  userId);\
+\
+\strokec16 // Callbacks always go last\strokec13 \
+\strokec17 public\strokec13  \strokec17 void\strokec13  loadUserAsync(Context context, \strokec17 int\strokec13  userId, UserCallback callback);\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf5 \
+\pard\tx720\pardeftab720\partightenfactor0
+\cf15 Misc\cf5 :\
+\pard\pardeftab720\partightenfactor0
+\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb10 \outl0\strokewidth0 Use TODO comments for code that is temporary, a short-term solution, or good-enough but not perfect.\
+\cf5 \cb3 \outl0\strokewidth0 \strokec13 \
+\pard\pardeftab720\partightenfactor0
+\cf5 Remove dead code\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 Code lines should not exceed\'a0100 characters.\
+\
+When multiple methods are chained in the same line - for example when using Builders - every call to a method should go in its own line, breaking the line before the\'a0.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec5 Each line should contain at most one statement. One declaration per line is recommended since it encourages commenting\
+\
+No space between a method name and the parenthesis\cf5 \strokec4 \
+}
